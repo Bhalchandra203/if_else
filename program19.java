@@ -1,0 +1,27 @@
+/*
+54321
+44321
+33321
+22221
+11111
+*/
+
+class program19
+{
+	public static void main(String args[])
+	{
+		int n=5;
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j<=n;j++)
+			{
+			
+					System.out.print(i);
+				for(int j=i;j<=n;j++)
+
+					System.out.print(j);
+			}
+			System.out.println();
+		}
+	}
+}
